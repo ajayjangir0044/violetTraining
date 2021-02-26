@@ -9,6 +9,7 @@
     <meta name="keywords" content="Tech.,violet tech.,violet technology,content,content writer,free lancers,tech companies,hier,hier graphic designershier web developeres,web devlopment,contest,violet technology,Violet tech.,Violet technology,">
     <meta name="author" content="Pushkar Poonia">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Violet tech - Official Home Page</title>
 
@@ -77,6 +78,13 @@
   }
 }
 
+@media ( max-width: 600px) {
+    #anim{
+        z-index: 1 !important;
+        opacity:.3
+    }
+
+}
 .flex-container > div {
   height: 63px;
   background-color: #3e3e3e;
@@ -95,6 +103,14 @@
     width: 100%;
     height: 100%;
     z-index: -1;
+    overflow:hidden;
+    
+    
+}
+.particles-js-canvas-el {
+height: 100vmax !important;
+min-height: 1200px !important;
+z-index: 0;
 }
     </style>
 </head>
